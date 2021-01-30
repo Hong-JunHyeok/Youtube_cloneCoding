@@ -1,0 +1,47 @@
+:root {
+  /* Color */
+  --white: #fff;
+  --black: #140a00;
+  --blue: #054fd4;
+  --red: #ff0000;
+  --grey_dark: #909090;
+  --grey_light: #e0e0e0;
+
+  /* Size */
+  --padding: 12px;
+  --profile_size: 36px;
+
+  /* Font size */
+  --large_font: 18px;
+  --medium_font: 14px;
+  --small_font: 12px;
+  --micro_font: 10px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* header */
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: var(--padding);
+  background-color: var(--black);
+  color: var(--white);
+}
+
+header .logo {
+  font-size: var(--large_font);
+}
+header .logo i {
+  color: var(--red);
+}
+header .icons .fa-search {
+  margin-right: var(--padding);
+}
