@@ -45,3 +45,17 @@ header .logo i {
 header .icons .fa-search {
   margin-right: var(--padding);
 }
+
+/* Video Player */
+.player {
+  position: sticky;
+  top: 0;
+  text-align: center;
+  background: var(--black);
+}
+
+.player video {
+  width: 100%;
+  height: 100%;
+  max-width: 1000px;
+}
