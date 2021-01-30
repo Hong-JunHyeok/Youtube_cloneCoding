@@ -69,7 +69,7 @@ header .icons .fa-search {
 }
 
 /* Vidio Info */
-body > .info {
+.infoAndUpNext > .info {
   padding: var(--padding);
 }
 
@@ -80,6 +80,7 @@ body > .info {
 }
 .info .metadata .hashtags li {
   margin-right: var(--padding);
+  list-style: none;
 }
 .info .metadata .titleAndButton {
   display: flex;
@@ -205,4 +206,16 @@ body > .info {
 .UpNext .item .info .view {
   font-size: var(--micro_font);
   color: var(--grey_dark);
+}
+
+.infoAndUpNext {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+  .infoAndUpNext {
+    flex-direction: row;
+    margin: var(--padding) 0;
+  }
 }

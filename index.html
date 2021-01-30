@@ -18,6 +18,7 @@
     <title>Youtube Mobile</title>
   </head>
   <body>
+    <!-- Header -->
     <header>
       <div class="logo">
         <i class="fab fa-youtube"></i>
@@ -28,105 +29,112 @@
         <i class="fas fa-ellipsis-v"></i>
       </div>
     </header>
+
+    <!-- Video Player -->
     <section class="player">
       <video src="video/Parallax.mp4" controls></video>
     </section>
-    <section class="info">
-      <div class="metadata">
-        <ul class="hashtags">
-          <li>#웹하는 준혁이</li>
-          <li>#구독과 좋아요</li>
-          <li>#는 필수!</li>
-        </ul>
-        <div class="titleAndButton">
-          <span class="title">
-            유튜브 클론코딩 강좌! 비전공자인 나도 유튜브를 만들수 있을까?
-            하고싶다면 당장클릭! | 실전 HTML , CSS , JavaScript 입문편!
-          </span>
-          <button class="moreBtn">
-            <i class="fas fa-caret-down"></i>
-          </button>
-        </div>
-        <span class="views">1M views 1month ago</span>
-      </div>
-      <div class="actions">
-        <ul>
-          <button>
-            <i class="active fas fa-thumbs-up"></i>
-            2k
-          </button>
-        </ul>
-        <ul>
-          <button>
-            <i class="fas fa-thumbs-down"></i>
-            0
-          </button>
-        </ul>
-        <ul>
-          <button>
-            <i class="fas fa-share"></i>
-            Share
-          </button>
-        </ul>
-        <ul>
-          <button>
-            <i class="fas fa-plus"></i>
-            Save
-          </button>
-        </ul>
-        <ul>
-          <button>
-            <i class="fab fa-font-awesome-flag"></i>
-            Report
-          </button>
-        </ul>
-      </div>
-      <div class="channel">
-        <div class="metadata">
-          <img src="image/me.jpg" alt="" />
-          <div class="info">
-            <span class="name">웹하는 준혁이</span>
-            <span class="subscribers">1M subscribers</span>
-          </div>
-        </div>
-        <button class="subscribe">subscribe</button>
-      </div>
-    </section>
-    <section class="UpNext">
-      <span class="title">Up next</span>
-      <ul>
-        <li class="item">
-          <div class="img"><img src="image/thumnail/1.png" alt="" /></div>
-          <div class="info">
-            <span class="title">유튜브 썸네일 쉽게 만드는법!</span>
-            <span class="name">나이름뭐지</span>
-            <span class="view">24k</span>
-          </div>
-          <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
-        </li>
-        <li class="item">
-          <div class="img"><img src="image/thumnail/2.jpg" alt="" /></div>
-          <div class="info">
-            <span class="title">왁굳 형이 왜 모배에서 나와?</span>
-            <span class="name">우왁굳</span>
-            <span class="view">1M</span>
-          </div>
-          <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
-        </li>
-        <li class="item">
-          <div class="img">
-            <img src="image/thumnail/오이치킨은 사드세요...제발.jpg" alt="" />
-          </div>
 
-          <div class="info">
-            <span class="title">오이치킨은 사드세요...제발</span>
-            <span class="name">승우아빠</span>
-            <span class="view">2M</span>
+    <div class="infoAndUpNext">
+      <!-- Video Info -->
+      <section class="info">
+        <div class="metadata">
+          <ul class="hashtags">
+            <li>#웹하는 준혁이</li>
+            <li>#구독과 좋아요</li>
+            <li>#는 필수!</li>
+          </ul>
+          <div class="titleAndButton">
+            <span class="title">
+              유튜브 클론코딩 강좌! 비전공자인 나도 유튜브를 만들수 있을까?
+              하고싶다면 당장클릭! | 실전 HTML , CSS , JavaScript 입문편!
+            </span>
+            <button class="moreBtn">
+              <i class="fas fa-caret-down"></i>
+            </button>
           </div>
-          <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
-        </li>
-      </ul>
-    </section>
+          <span class="views">1M views 1month ago</span>
+        </div>
+        <div class="actions">
+          <ul>
+            <button>
+              <i class="active fas fa-thumbs-up"></i>
+              2k
+            </button>
+          </ul>
+          <ul>
+            <button>
+              <i class="fas fa-thumbs-down"></i>
+              0
+            </button>
+          </ul>
+          <ul>
+            <button>
+              <i class="fas fa-share"></i>
+              Share
+            </button>
+          </ul>
+          <ul>
+            <button>
+              <i class="fas fa-plus"></i>
+              Save
+            </button>
+          </ul>
+          <ul>
+            <button>
+              <i class="fab fa-font-awesome-flag"></i>
+              Report
+            </button>
+          </ul>
+        </div>
+        <div class="channel">
+          <div class="metadata">
+            <img src="image/me.jpg" alt="" />
+            <div class="info">
+              <span class="name">웹하는 준혁이</span>
+              <span class="subscribers">1M subscribers</span>
+            </div>
+          </div>
+          <button class="subscribe">subscribe</button>
+        </div>
+      </section>
+      <!-- Up Next -->
+      <section class="UpNext">
+        <span class="title">Up next</span>
+        <ul>
+          <li class="item">
+            <div class="img"><img src="image/thumnail/1.png" alt="" /></div>
+            <div class="info">
+              <span class="title">유튜브 썸네일 쉽게 만드는법!</span>
+              <span class="name">나이름뭐지</span>
+              <span class="view">24k</span>
+            </div>
+            <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+          </li>
+          <li class="item">
+            <div class="img"><img src="image/thumnail/2.jpg" alt="" /></div>
+            <div class="info">
+              <span class="title">왁굳 형이 왜 모배에서 나와?</span>
+              <span class="name">우왁굳</span>
+              <span class="view">1M</span>
+            </div>
+            <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+          </li>
+          <li class="item">
+            <div class="img">
+              <img src="image/thumnail/오이치킨은 사드세요...제발.jpg" alt="" />
+            </div>
+
+            <div class="info">
+              <span class="title">오이치킨은 사드세요...제발</span>
+              <span class="name">승우아빠</span>
+              <span class="view">2M</span>
+            </div>
+            <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+          </li>
+        </ul>
+      </section>
+    </div>
   </body>
 </html>
 
