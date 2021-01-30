@@ -9,7 +9,7 @@
 
   /* Size */
   --padding: 12px;
-  --profile_size: 38px;
+  --profile_size: 36px;
 
   /* Font size */
   --large_font: 18px;
@@ -129,6 +129,7 @@ body > .info {
 .info .channel {
   display: flex;
   justify-content: space-between;
+  padding: calc(var(--padding) / 2);
   border-top: 1px solid var(--grey_light);
   border-bottom: 1px solid var(--grey_light);
 }
@@ -138,6 +139,7 @@ body > .info {
 }
 
 .info .channel .metadata .info {
+  margin-left: var(--padding);
   display: flex;
   flex-direction: column;
 }
